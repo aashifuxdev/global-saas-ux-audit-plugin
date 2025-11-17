@@ -1,8 +1,10 @@
 {
   "name": "Global SaaS UX Audit",
-  "id": "com.aashif.global-saas-ux-audit",
-  "api": "1.0.0",
-  "editorType": ["figma"],
-  "main": "dist/code.js",
-  "ui": "dist/index.html"
+  "id": "global-saas-ux-audit",
+  "editorType": ["figma", "figjam"],
+  "ui": "dist/index.html",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  },
+  "api": "1.0.0"
 }
